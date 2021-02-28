@@ -11,7 +11,7 @@
         if (currentUrl.searchParams.get("tag") != null) {
         var tag = currentUrl.searchParams.get("tag");
 
-        var url = "https://script.google.com/macros/s/AKfycbyxUhUuSDlhW3j7SBfknwb6L7t_6Z-GhpACJ5yCoG2_nVZ8oXE/exec?tag=" + tag;
+        var url = "https://script.google.com/macros/s/AKfycbzWUSLMIAysg_kX7fzEEF7Z_qx3JexzCLB54MolsTUlkCoFJEoxB6lG/exec?tag=" + tag;
             var req = await fetch(url);
             var res = await req.text();
             if(res != null && res != "FAILED"){
